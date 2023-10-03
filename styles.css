@@ -12,7 +12,9 @@ FDE5D4
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
+    border-radius: 25%;
 }
+
 #result {
     font-family: 'ariel';
     background-color: #001524;
@@ -24,22 +26,25 @@ FDE5D4
     line-height: 30px;
     padding: 4% 2%;
 }
+
 .bttns {
     display: grid;
     border: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .bttns div {
-    border-top: 1px solid #001524;
+    border-top: 2px solid #001524;
 }
+
 .math-btn {
     background-color: #001524;
     color: #FDE5D4;
-    border: .5px solid #FDE5D4;
+    border: 0.5px solid #FDE5D4;
     line-height: 100px;
     text-align: center;
-    font-size: 30px;
-    cursor: pointer;
+    font-size: 40px;
+    cursor: cell;
 }
 
 #calculator-container {
@@ -51,18 +56,22 @@ FDE5D4
     color: #FDE5D4;
     font-size: 30px;
 }
+
 #clear{
     background-color: #445D48;
     color: #FDE5D4;
 }
+
 .math-btn:hover {
     background-color: #D6CC99;
     border: .5px solid #D6CC99;
     color: #001524;
 }
+
 #equal:hover{
     background-color: #D6CC99;
 }
+
 #clear:hover{
     background-color: #D6CC99;
 }

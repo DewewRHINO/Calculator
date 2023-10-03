@@ -14,7 +14,7 @@ function calculateExpression(expression) {
     // Use a custom function to split the expression
     function splitExpression(expr) {
         const result = [];    // An array to store the split components
-        let current = '';     // A string to accumulate characters of the current component
+        let current = '';     // A string to monitor the numbers being put in
     
         for (const char of expr) {
             if (operators.includes(char)) {
