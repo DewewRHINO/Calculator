@@ -68,7 +68,7 @@ function calculateExpression(expression) {
 // We use the map function to iterate over all the buttons.
 buttons.map((button) => {
     button.addEventListener("click", (e) => {
-        if (e.target.innerText === "AC") {
+        if (e.target.innerText === "C") {
             result.innerText = "";
         } else if (e.target.innerText === "=") {
             try {

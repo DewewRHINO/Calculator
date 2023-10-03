@@ -4,8 +4,11 @@ Color Pallets:
 445D48
 D6CC99
 FDE5D4
+
+-> Got from Color Hunt. 
 */
 
+/* Container class that gives me control of the whole calculator, border radius effects the shadow of the calculator */
 .container {
 	max-width: 360px;
 	box-shadow: 0px 0px 22px 8px gray;
@@ -15,6 +18,7 @@ FDE5D4
     border-radius: 25%;
 }
 
+/* result id for the numbers at the top of the calculator. Here we define the font as well but, adjusted background and border to match the buttons */
 #result {
     font-family: 'ariel';
     background-color: #001524;
@@ -27,6 +31,7 @@ FDE5D4
     padding: 4% 2%;
 }
 
+/* Button class that contains all the number buttons, this is how we format everything into a grid like style to look more like a calcu*/
 .bttns {
     display: grid;
     border: 10px;
@@ -37,6 +42,7 @@ FDE5D4
     border-top: 2px solid #001524;
 }
 
+/* Math button class to actually style the buttons you see here, this is where we can change the cursor on hover and align text */
 .math-btn {
     background-color: #001524;
     color: #FDE5D4;
@@ -47,20 +53,20 @@ FDE5D4
     cursor: cell;
 }
 
-#calculator-container {
-    text-align: center;
-}
-
+/* Equal button styling. Made it slightly bigger than the other buttons */
 #equal {
     background-color: #445D48;
     color: #FDE5D4;
     font-size: 30px;
 }
 
+/* Clear button matching colors and font as the equal button */
 #clear{
     background-color: #445D48;
     color: #FDE5D4;
 }
+
+/* Hover classes for the buttons to change color */ 
 
 .math-btn:hover {
     background-color: #D6CC99;
